@@ -1,0 +1,22 @@
+# Environments
+venv/
+env/
+.env
+
+# Credentials and User Data
+settings.json
+token.json
+
+# Build and Temp folders
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Ignore everything in dist/ EXCEPT the final executable
+dist/*
+!dist/TodoScheduler_Final.exe
